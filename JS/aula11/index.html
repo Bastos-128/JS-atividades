@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="a-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 11 - JS</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="JS/aula11.js"></script>
+</head>
+<body class="corpo">
+<h1>Jogador <spanid="jogador"><span></h1> 
+    
+
+    <table border="1" class="grid">
+        <tr>
+            <th colspan="1">   <input type="button" name="indicador" id="casa00" class="selecionar1"  onclick="jogador1()">   </th>
+            <th colspan="1">      </th>
+            <th colspan="1">   <input type="button" name="indicador" id="casa00" class="selecionar2" onclick="jogador2()">   </th>
+        </tr>
+        <tr>
+            <th>   <input type="button" name="casa" class="bloco-jogo" id="casa1" onclick="pai1(id)",>   </th>
+            <th>   <input type="button" name="casa" class="bloco-jogo" id="casa2" onclick="pai1(id)">   </th>
+            <th>   <input type="button" name="casa" class="bloco-jogo" id="casa3" onclick="pai1(id)">   </th>
+        </tr>
+        <tr>
+            <th>   <input type="button" name="casa" class="bloco-jogo" id="casa4" onclick="pai1(id)">   </th>
+            <th>   <input type="button" name="casa" class="bloco-jogo" id="casa5" onclick="pai1(id)">   </th>
+            <th>   <input type="button" name="casa" class="bloco-jogo" id="casa6" onclick="pai1(id)">   </th>
+        </tr>
+        <tr>
+            <th>   <input type="button" name="casa" class="bloco-jogo" id="casa7" onclick="pai1(id)">   </th>
+            <th>   <input type="button" name="casa" class="bloco-jogo" id="casa8" onclick="pai1(id)">   </th>
+            <th>   <input type="button" name="casa" class="bloco-jogo" id="casa9" onclick="pai1(id)">   </th>
+        </tr>
+    </table>
+    <div id="resultado"></div>
+        <input type="reset" value="Reiniciar" id="reiniciar" class="reset"></input>
+</body>
+</html>

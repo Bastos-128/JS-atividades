@@ -1,0 +1,70 @@
+body{
+    background-color: rgb(33, 31, 81);
+    text-align: center;
+    font-family: Verdana, Helvetica, sans-serif;
+    font-size: 1.3em;
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+}
+h1{
+    color: red;
+}
+#casa1{
+    background-color:whitesmoke;
+}
+#casa2{
+    background-color:whitesmoke;
+}
+#casa3{
+    background-color:whitesmoke;
+}
+#casa4{
+    background-color:whitesmoke;
+}
+#casa5{
+    background-color:whitesmoke;
+}
+#casa6{
+    background-color:whitesmoke;
+}
+#casa7{
+    background-color:whitesmoke;
+}
+#casa8{
+    background-color:whitesmoke;
+}
+#casa9{
+    background-color:whitesmoke;
+}
+.selecionar1{
+    background-color:cyan;
+    width: 12vw;
+    height:2vw;
+}
+.selecionar2{
+    background-color: crimson;
+    width: 12vw;
+    height:2vw;
+}
+input {
+    background-color: white;
+    font-size: 6vw;
+    width: 12vw;
+    height:12vw;
+    margin: 0;
+    color: white;
+}
+
+#jogador {
+    display: inline;
+}
+
+#reiniciar {
+    margin-top: 2%;
+    width: 10vw;
+    height:6vw;
+    font-size: 1em;
+    color: rgb(255, 0, 0);
+}
